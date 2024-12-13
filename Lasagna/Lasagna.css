@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2c2c54;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #34495e;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f7f1e3;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff6b81;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff6b81, #ff4757);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.results {
+    margin-top: 25px;
+    text-align: left;
+    background: #f7f1e3;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #34495e;
+    font-weight: 500;
+}
